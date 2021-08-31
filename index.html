@@ -4,11 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bienvenido</title>
 </head>
 <body>
-    <h1>Hola, soy Mago</h1>
-    <h2>Bienvenido a mi pagina</h2>
-    <a href="">visitar</a>
+    <header></header>
+    <nav id="menu" class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <a class="navbar-link" href="#">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#about">About</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#skills">Skills</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#tools">Tools</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#projects">Projects</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="main" class="main-page">
+        <h1>Hola, soy</h1>
+        <h1 class="main-title">Mauricio Gongora A.</h1>
+        <h2>Ingeniero, Diseñador, Visionario</h2>
+    </section>
+    <section id="about">
+        <h2 class="secondary-title">Sobre mi...</h2>
+        <div class="container">
+            <p class="text-article">Ingeniero Electrónico, con capacidad analítica e investigativa, de mentalidad abierta, creativo, reflexivo y crítico, interesado en la generación de emprendimiento e innovación.</p>
+            <p class="text-article">Con competencias para enfrentar y resolver problemas del entorno local y regional, aplicando conocimientos y experiencia en diseño, implementación, gestión e investigación de proyectos enfocados en Tecnologías de la Información y las Comunicaciones.</p>
+            <p class="text-article">Con conocimientos en el desarrollo de hardware y circuitos impresos, como también, en el desarrollo de software y aplicación web utilizando diferentes tecnologías y lenguajes</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 class="secondary-title">HABILIDADES</h2>
+        <div class="container">
+            <h5 class="list-title">Desarrollo de Software</h5>
+            <ul class="list-container">
+                <li>Front-end frameworks</li>
+                <li>Rapid prototyping</li>
+                <li>Semantic mark-up</li>
+                <li>Data visualization</li>
+                <li>Progressive enhancement</li>
+                <li>Responsive web</li>
+                <li>Browser-specific quirks</li>
+                <li>Performance across devices</li>
+                <li>Client-side optimization</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h5 class="list-title">Diseño de Software</h5>
+            <ul class="list-container">
+                <li>User interface</li>
+                <li>User experience</li>
+                <li>Web animation</li>
+                <li>Motion graphics</li>
+                <li>Information architecture</li>
+                <li>Visual design</li>
+            </ul>
+        </div>
+    </section>
+    <section id="tools">
+        Herramientas
+        <div class="shortlist shortlist--split">
+            <h5 class="shortlist__title">Desarrollo de Web</h5>
+            <ul class="shortlist__list">
+                <li>Javascript <span>es6+/typescript</span></li>
+                <li>NodeJS</li>
+                <li>Version Control <span>Git</span></li>
+                <li>HTML</li>
+                <li>CSS <span>Postcss/Sass/Scss</span></li>
+                <li>React</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <div class="">
+            <h5 class="shortlist__title">Diseño Electrónico</h5>
+            <ul class="shortlist__list">
+                <li>CCS C</li>
+                <li>Eagle</li>
+                <li>Proteus</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        Proyectos
+        <div class="container-pr">
+            
+
+        </div>
+    </section>
+    <section id="contact">
+        <h5 class="form-title">Contacto</h5>
+        <form action="">
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value="" placeholder="Your name..."><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="" placeholder="Your email..." required><br><br>
+            <label for="subject">Mensaje</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="x">X</section>
+    <footer id="contentfooter">
+        <h6 class="content">Web Design</h6>
+        <h6 class="content">&COPY; 2021</h6>
+    </footer>
 </body>
 </html>
